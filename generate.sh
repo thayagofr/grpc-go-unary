@@ -1,3 +1,3 @@
 #!/bin/bash
 
-protoc ./calcproto/calc.proto --go_out=plugins=grpc:.
+protoc --go_out=plugins=grpc:. --go_opt=paths=source_relative calc.proto
