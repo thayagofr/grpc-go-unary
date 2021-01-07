@@ -17,5 +17,5 @@ message CalcResponse {
 }
 
 service CalcService {
-    rpc Calculate (CalcRequest) returns (CalcResponse);
+    rpc Calculate (CalcRequest) returns (CalcResponse) {};
 }
